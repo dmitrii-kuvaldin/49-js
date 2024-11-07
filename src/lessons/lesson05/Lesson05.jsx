@@ -7,7 +7,6 @@ function Lesson05() {
     <div className="lesson-container">
       <h2>Lesson 05</h2>
       <p>React map() components</p>
-
       <section className="grid-container">
         {heroes.map((hero) => (
           <article key={hero.id} className={hero.isDark ? 'hero-dark' : 'hero-light'}>
